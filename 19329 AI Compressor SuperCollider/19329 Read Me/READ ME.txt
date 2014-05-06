@@ -1,0 +1,30 @@
+AI COMPRESSOR: Analysis Application
+
+SuperCollider SCD File
+
+CANDIDATE NUMBER: 19329
+MUSIC INFORMATICS FINAL YEAR PROJECT
+University of Sussex
+MAY 2014
+
+BUILT IN SuperCollider 3.6.5
+MAC OSX VERSION 10.8.4
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+AI Compressor Analysis About:
+
+To be used alongside the AU plugin AI Compressor, this analysis application takes audio input and analyses in non real-time different features of the musical content. Machine listening approaches are employed with music information retrieval techniques to classify the instrument in the audio and calculate the most suitable compressor parameters.
+Drag and Drop audio in and hit 'analyse' to perform analysis and compression calculations. If an AU plugin has been set up, then it will send an OSC Port Number which this app listens for. When analysis is complete, this analysis app will send over OSC the most suitable compression parameters to the AU plugin and will make the AU plugin's compressor parameters update immediately.
+
+In addition, this application can be used individually for pure analysis and compressor setting calculation. Very useful, when using different compressor plugins rather than the AI compressor plugin provided. For educational purposes, please see the Manual Guide that informs how the compressor parameter values are calculated to enhance learning within the compression domain. 
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Install:
+
+1. Copy over the required Extensions to the SuperCollider Extensions folder located in
+library/application support/supercollider/extensions
+
+2. Open the 19329 AICompressor .scd file included and follow instructions within this file.
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
