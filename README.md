@@ -8,9 +8,10 @@ University of Sussex
 Music Informatics Final Year Project
 Spring 2014
 
+Brief (Report) about:
+
 Install:
 ===================
-Brief (Report) about:
 
 1. Download the AI Compressor DMG file:
    For Standalone Mac Application and Audio Unit Plugin Component.
