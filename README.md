@@ -12,8 +12,8 @@ Spring 2014
 --------------------------------------------------------------------------------------
 
 Install:
-
-Brief (Report):
+===================
+Brief (Report) about:
 
 1. Download the AI Compressor DMG file:
    For Standalone Mac Application and Audio Unit Plugin Component.
