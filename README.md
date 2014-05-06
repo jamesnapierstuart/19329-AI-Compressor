@@ -8,9 +8,6 @@ University of Sussex
 Music Informatics Final Year Project
 Spring 2014
 
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
-
 Install:
 ===================
 Brief (Report) about:
@@ -25,7 +22,6 @@ Brief (Report) about:
 3. Download the AI Compressor Analysis Application SuperCollider Code:
    The SuperCollider files, to run the AI Compressor Application within SuperCollider.
 
-
 Extras:
-
+===================
 Test samples have been uploaded, which can be used to test the AI Compressor application and Audio Unit Plugin.
