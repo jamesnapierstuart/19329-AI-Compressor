@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioComponents</key>
+	<dict>
+		<key>description</key>
+		<string>AU Intelligent Compressor that sets Parameters Automaically by Communicating with External Machine Listening Application</string>
+		<key>factoryFunction</key>
+		<string>AICompressor</string>
+		<key>manufacturer</key>
+		<string>AICompressor.component</string>
+		<key>name</key>
+		<string>AICompressor</string>
+		<key>subtype</key>
+		<string>AICompressor</string>
+		<key>type</key>
+		<string>aufx</string>
+		<key>version</key>
+		<string>0xFFFFFF</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>AICompressor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>AICompressor</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © Jamie Stuart, Candidate No. 19329, AICompressor, University of Sussex, Spring 2014.</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
