@@ -2,7 +2,6 @@
 ===================
 
 19329 AI Compressor Final Year Project: Towards Intelligent Autonomous Audio Plugins
-
 Candidate No. 19329, Music Informatics Final Year Project, University of Sussex, Spring 2014
 
 Brief (Report) about:
