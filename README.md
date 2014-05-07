@@ -6,7 +6,7 @@ Candidate No. 19329, Music Informatics Final Year Project, University of Sussex,
 
 The files included within this Git repository, are intended as submission for the University of Sussex, Music Informatics BA Final Year Project 2014. 
 
-Two main programs were created for this project. First the AI Compressor Audio Unit Plugin; A DSP compressor plugin to be run within a DAW that can host AU plugins. It can be ran independtly as a compressor plugin, or used alongisde the analysis application. It listens for OSC messages from the analysis application and adapts its parameters according to the OSC messages receieved. 
+Two main programs were created for this project. First the AI Compressor Audio Unit Plugin; A DSP compressor plugin to be run within a DAW that can host AU plugins. It can be ran independently as a compressor plugin, or used alongside the analysis application. It listens for OSC messages from the analysis application and adapts its parameters according to the OSC messages receieved. 
 
 The second program is the AI Compressor Analysis Application; used for instrument classification using machine listening approaches and compressor calculations using music information retieval processes. The application analyses audio inputted, classifies the instrument (currently training data for Kick, Snare, Eguitar and Vocal) and calculates the most suitable compressor parameters based upon info such as instrument classified, mean peak value, rms, average gain reduction etc. After analysis, these compressor values are sent over OSC to the corresponding AU plugin instance that adapts automatically.
 
