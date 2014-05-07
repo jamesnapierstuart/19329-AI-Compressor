@@ -55,6 +55,7 @@ AICompressor {
 		var analyisClassificationRoutine;
 		var calculateCompressorParameters;
 		var analyse;
+		var isAnalysing = false;
 		// OSC Variables
 		var scPort;
 		var auPort;
@@ -62,6 +63,7 @@ AICompressor {
 		var createGUI;
 		var createSynth;
 		var oscInit;
+		var freeAnalyse;
 		// compressor variables
 		var sampleCompressorParameters;
 		var threshold;
@@ -193,7 +195,9 @@ AICompressor {
 			analyseButton.action_({arg b;
 
 				case
-				{soundFile != nil} {
+				{(soundFile != nil) && (isAnalysing == false)} {
+
+					isAnalysing = true;
 
 					resultsText[0].string = "Classified Periodicity: Analysing...";
 					resultsText[1].string = "Classified Instrument: Analysing...";
@@ -271,11 +275,21 @@ AICompressor {
 							auPort.sendMsg("/release", release+floatConstant);
 							auPort.sendMsg("/makeupgain", makeUpGain+floatConstant);
 						};
+
+						freeAnalyse = {
+						isAnalysing = false;
 					};
+
+											freeAnalyse.defer(0.2);
+
+					};
+
+
 
 					// Defer functions, to execute one after the other
 					analyisClassificationRoutine.defer(0.1);
 					calculateCompressorParameters.defer(0.1);
+
 				};
 			});
 
@@ -336,6 +350,7 @@ AICompressor {
 					"Audio Loaded In".postln;
 
 					soundDrop.string = "Drag and Drop Audio Here";
+
 				};
 				analyse.defer(0.001);
 			};
