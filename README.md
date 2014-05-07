@@ -25,6 +25,11 @@ Install:
 3. AI Compressor Analysis Application SuperCollider Code:
    The SuperCollider files, to run the AI Compressor Application within SuperCollider.
 
-Extras:
+Final Report:
+===================
+A PDF of the Final Report is also located within this repository. It details the design, implementation and evaluation of the built system and is recommended reading for those seeking further information of how this project was realised.
+
+
+Test Audio Samples:
 ===================
 Test samples have been uploaded, which can be used to test the AI Compressor application and Audio Unit Plugin. These were not used as training data examples and feel free to try out your own to understand and evaluate the limitations of the analysis techniques employed.
