@@ -104,14 +104,15 @@ AICompressor {
 
 			textcvs = Array.fill(2, {arg i; CompositeView(halfcvs[1], Rect(0 + (i*halfcvs[1].bounds.width/2), 0, halfcvs[1].bounds.width/2, halfcvs[1].bounds.height))});
 
-			leftText = Array.fill(3, {arg i; StaticText(leftcvs[i], Rect(0, leftcvs[i].bounds.height/8, leftcvs[i].bounds.width, leftcvs[i].bounds.height/4)).align_(\center)});
+			leftText = Array.fill(3, {arg i; StaticText(leftcvs[i], Rect(0, leftcvs[i].bounds.height/6.5, leftcvs[i].bounds.width, leftcvs[i].bounds.height/4)).align_(\center)});
+
 			portText = StaticText(leftcvs[0], Rect(0, leftcvs[0].bounds.height/4, leftcvs[0].bounds.width, leftcvs[0].bounds.height/2)).align_(\center);
 
 			titleText = Array.fill(2, {arg i; StaticText(textcvs[i], Rect(textcvs[i].bounds.width/12, textcvs[i].bounds.height/20, textcvs[i].bounds.width, textcvs[i].bounds.height/8))});
 
-			resultsText = Array.fill(5, {arg i; StaticText(textcvs[0], Rect(textcvs[0].bounds.width/12, textcvs[0].bounds.height/6 + (i*textcvs[0].bounds.height/16), textcvs[0].bounds.width/1.2, textcvs[0].bounds.height/16))});
+			resultsText = Array.fill(5, {arg i; StaticText(textcvs[0], Rect(textcvs[0].bounds.width/12, textcvs[0].bounds.height/6 + (i*textcvs[0].bounds.height/16), textcvs[0].bounds.width, textcvs[0].bounds.height/16))});
 
-			parameterText = Array.fill(6, {arg i; StaticText(textcvs[1], Rect(textcvs[1].bounds.width/12, textcvs[1].bounds.height/6 + (i*textcvs[1].bounds.height/16), textcvs[1].bounds.width/1.5, textcvs[1].bounds.height/16))});
+			parameterText = Array.fill(6, {arg i; StaticText(textcvs[1], Rect(textcvs[1].bounds.width/12, textcvs[1].bounds.height/6 + (i*textcvs[1].bounds.height/16), textcvs[1].bounds.width, textcvs[1].bounds.height/16))});
 
 			analyseButton = Button(leftcvs[1], Rect(leftcvs[1].bounds.width/11, leftcvs[1].bounds.height/2.5, leftcvs[1].bounds.width/1.2, leftcvs[1].bounds.height/2));
 

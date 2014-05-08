@@ -19,5 +19,3 @@ Music Informatics Final Year Project, University of Sussex, Spring 2014
 // @vocalMfccTraining = The machine learning CSV file path for vocal MFCC13 training data
 
 AICompressor("/Users/jamie/Desktop/Machine Learning/NonPeriodic Periodic Binary Onset Training Data/PeriodicTrainingOnset.csv", "/Users/jamie/Desktop/Machine Learning/NonPeriodic Periodic Binary Onset Training Data/nonPeriodicTrainingOnset.csv", "/Users/jamie/Desktop/Machine Learning/Kick Snare Binary Tartini Training Data/kickTrainingTartini.csv", "/Users/jamie/Desktop/Machine Learning/Kick Snare Binary Tartini Training Data/snareTrainingTartini.csv", "/Users/jamie/Desktop/Machine Learning/Eguitar Vocal Binary MFFC 13 Training Data/EguitarMFCCTrainingData.csv", "/Users/jamie/Desktop/Machine Learning/Eguitar Vocal Binary MFFC 13 Training Data/VocalMFCCTrainingData.csv")
-
-
