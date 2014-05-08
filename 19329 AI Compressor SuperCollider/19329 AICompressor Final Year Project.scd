@@ -11,8 +11,8 @@ Music Informatics Final Year Project, University of Sussex, Spring 2014
 // Pass in the required machine learning CSV files as arguments (Found in the machine learning folder).
 // (Replace the arguments to paths on your own local system).
 
-//@periodicOnsetTraining = The machine learning CSV file path for periodic training data
-//@nonPeriodicOnsetTraining = The machine learning CSV file path for non periodic training data
+// @periodicOnsetTraining = The machine learning CSV file path for periodic training data
+// @nonPeriodicOnsetTraining = The machine learning CSV file path for non periodic training data
 // @kickTartiniTraining = The machine learning CSV file path for kick tartini training data
 // @snareTartiniTraining = The machine learning CSV file path for snare tartini training data
 // @eguitarMfccTraining = The machine learning CSV file path for eguitar MFCC 13 training data

@@ -26,8 +26,8 @@ t.sendMsg("/makeupgain",15.0);
 // Execute one by one or all together
 (
 t.sendMsg("/ratio",4.0);
-t.sendMsg("/threshold",-0.0);
-t.sendMsg("/makeupgain",20.0);
+t.sendMsg("/threshold",-20.0);
+t.sendMsg("/makeupgain",10.0);
 t.sendMsg("/attack",300.0);
 t.sendMsg("/release",5.0);
 )

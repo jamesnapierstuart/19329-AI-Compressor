@@ -209,12 +209,7 @@ ComponentResult AICompressor::GetParameterInfo (
     | kAudioUnitParameterFlag_IsReadable;
     
     if (inScope == kAudioUnitScope_Global) { // 2
-        
-        
-        // Putting it here might work??
-        
-        
-        //        system("open /Applications/");
+
         switch (inParameterID) {
             case kParameter_Ratio: // 3
                 AUBase::FillInParameterName (
