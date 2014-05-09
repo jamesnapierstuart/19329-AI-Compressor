@@ -1,5 +1,5 @@
 /*
-Write Training Data to CSV for Onset or Tartini Classes,
+Write Training Data to CSV for MFCC data with 13 coefficients.
 
 @filename = Name of the CSV file
 @pathToWriteTo = The place where the CSV will be written
